@@ -27,6 +27,8 @@ const Form = props => {
 
   return (
     <form onSubmit={event => handleSubmit(event)}>
+      <h1>Add a new team member below: </h1>
+      <br />
       <label>
         name:
         <input
@@ -56,7 +58,7 @@ const Form = props => {
           onChange={e => handleChange(e)}
         />
       </label>
-      <button>Submit</button>
+      <button type="submit">Add Person!</button>
     </form>
   );
 };

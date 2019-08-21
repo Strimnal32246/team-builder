@@ -20,8 +20,8 @@ function App() {
       {team.map((element, index) => {
         return (
           <div>
-            <p>{element.name}</p>
-            <p>{element.email}</p>
+            <h2>{element.name}</h2>
+            <h3>{element.email}</h3>
             <p>{element.role}</p>
             <button onClick={() => editMember(element)}>EDIT</button>
           </div>
